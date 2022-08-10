@@ -101,6 +101,8 @@ function reset (){
     playerOneScore = 0;
     playerTwoScore = 0;
     twoPlayerCheck = 0;
+    all.twoScore.textContent = 0
+    all.oneScore.textContent = 0
 }
 all.soloFlex.style.display = "none"
 all.twoFlex.style.display = "none"
