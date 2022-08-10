@@ -1,0 +1,62 @@
+.button{
+    display: flex;
+    background-color: #0065E2;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding: 25px;
+    height: fit-content;
+    font-weight: 600;
+    border-radius: 500px;
+    font-size: 5rem;
+}
+.rollButton{
+    display: flex;
+    background-color: #0065E2;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 5px;
+    height: fit-content;
+    font-weight: 600;
+    border-radius: 500px;
+    font-size: 1rem;
+}
+img{
+    border-radius:35px;
+}
+.mainFlex{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.midScreen{
+    display: flex;
+    width: 900px;
+    height:100px;
+    background-color: lightgray;
+    justify-content: space-around;
+    list-style: none;
+    padding:10px;
+}
+.topDesc{
+    display: flex;
+    width: auto;
+    font-size: 2rem;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.score{
+    display:flex;
+    width: auto;
+    height: 15%;
+    font-size: 2rem;
+    justify-content: space-around;
+}

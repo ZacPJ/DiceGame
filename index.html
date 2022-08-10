@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class = "mainFlex" id="introFlex">
+        <button class = "button" id = "solo">One Player</button>
+        <button class = "button" id = "multi">Two Players</button>
+    </div>
+
+    <div class = "mainFlex" id = "diceFlex">
+        <a class = "midScreen">
+            <img src = "./images/Six.png" id = "diceImg">
+        </a>
+    </div>
+
+    <div class = "mainFlex" id = "soloFlex">
+
+        <a class = "midScreen">
+            <li class = "topDesc">Score</li>
+        </a>
+    </div>
+
+    <div class = "mainFlex" id = "twoFlex">
+        <a class = "midScreen">
+            <li class = "topDesc">Player One Score</li>
+            <li class = "topDesc">Player Two Score</li>
+        </a>
+    </div>
+
+    <div class = "mainFlex" id = "scoreFlex">
+        <a class = "midScreen">
+            <li></li>
+            <li></li>
+            <li></li>
+            <button class = "rollButton" id = "rollDice">Roll</button>
+            <button class = "rollButton" id = "holdDice">Hold</button>
+            <button class = "rollButton" id = "resetButton">New Game</button>
+            <li></li>
+            <li></li>
+            <li></li>
+        </a>
+        <a class = "midScreen">
+            <li class = "score" id = "playerOneScore">0</li>
+            <li class = "score" id = playerTwoScore>0</li>
+        </a>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
